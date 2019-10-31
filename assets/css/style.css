@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url('https://myrealdomain.com/images/fall-leaves-animated-gif.gif');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container{
+    
+}
+
+
+
+
+#header {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+#startContainer {
+    position: relative;
+    background-color:white;
+    margin: auto;
+    width: 55%;
+    height: 450px;
+    border: 3x solid black;
+}
+
+#startButton {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    top: 25%;
+    left: 30%;
+    width: 300px;
+    height: 75px;
+}
+
+#quizContainer {
+    display: none;
+    position: absolute;
+    background-color:white;
+    text-align: center;
+    left: 22.5%;
+    width: 55%;
+    color:black;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px lightgray;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#timeRemaining {
+    padding: 30px 30px 30px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+#submitButton {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+}
+
+#endContainer {
+    display: none;
+    position: fixed;
+    background-color:white;
+    text-align: center;
+    left: 22.5%;
+    width: 55%;
+    height: 100%;
+    color: black;
+    font-size: 30px;
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#questionsRight{
+    padding-top: 6%;
+}
+
+#questionsWrong{
+    padding-top: 20px;
+}
+
+#retryButton {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 70px;
+}

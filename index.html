@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Austin's Trivia Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="headerContainer">
+            <h1
+                style="text-align:center; font-family: 'raleyway',sans-serif; font-weight: bold; text-shadow: 2px 4px 2px gray">
+                Welcome to Austin's Maplestory Quiz!</h1>
+        </div>
+
+        <div id="startContainer">
+            <button type="button" id="startButton" class="btn btn-light btn-lg">Hello Mapler!</button>
+        </div>
+
+        <div id="quizContainer">
+            <div id="timeRemaining">Time Remaining: 60</div>
+            <div id="questions"></div>
+            <button type="button" id="submitButton" class="btn btn-light btn-lg">Submit!</button>
+        </div>
+
+        <div id="endContainer">
+            Congrats! You finished the Quiz!
+            <div id="questionsRight"></div>
+            <div id="questionsWrong"></div>
+            <button type="button" id="retryButton" class="btn btn-light btn-lg">Try Again?</button>
+        </div>
+    </div>
+
+
+    <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
